@@ -21,7 +21,7 @@
         <h3>Имя пользователя: <i>${user.name}</i></h3>
         <form action="/logout" method="post">
             <input type="hidden" name="_csrf" value="${_csrf.token}">
-            <button type="submit" class="btn btn-danger button-200 mb-2">Выйти</button> <!-- Изменено на кнопку Bootstrap -->
+            <button type="submit" class="btn btn-danger button-200 mb-2">Выйти</button> 
         </form>
         <hr>
         <div>
@@ -51,7 +51,6 @@
                 <label for="searchTitle" class="form-label">Поиск по названию задачи:</label>
                 <input type="text" class="form-control rounded-input" id="searchTitle" name="title">
             </div>
-            <!-- Установлена ширина кнопки поиска -->
             <button type="submit" class="btn btn-secondary button-200">Поиск</button> 
         </form>
         <hr>
